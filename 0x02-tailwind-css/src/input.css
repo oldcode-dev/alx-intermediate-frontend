@@ -1,7 +1,9 @@
-@import "tailwindcss/preflight";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
-@media (max-width: 768px) 
-{ 
-main { grid-template-columns: 1fr; } 
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }
